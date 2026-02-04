@@ -1,0 +1,46 @@
+/* Pokémon Website Styles */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Cards */
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Table */
+.table th, .table td {
+    vertical-align: middle;
+}
+
+/* Carousel */
+.carousel {
+    border-radius: 10px;
+}
+
+/* Form */
+.form-control:focus {
+    border-color: #212529;
+    box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.25);
+}
+
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 60px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .display-4 {
+        font-size: 2rem;
+    }
+}
